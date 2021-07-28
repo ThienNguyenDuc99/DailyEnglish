@@ -1,0 +1,37 @@
+body{
+    font-size: 19px;
+}
+
+.vocabulary_element{
+    font-size: 19px;
+    padding-left: 30px;
+}
+
+.vocabulary1{
+    display: flex;
+    padding-top: 25px;
+}
+
+.vocabulary{
+    border-bottom: 1px solid #000000;
+}
+
+.image{
+    width: 330px;
+    height: 250px;
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-size: cover;
+}
+
+.vocabulary2{
+    margin-bottom: 5px;
+}
+
+.btn.re{
+    font-weight: bold;
+    background-color: #146c43;
+    height: 55px;
+    width: 120px;
+    margin-right: 10px;
+}

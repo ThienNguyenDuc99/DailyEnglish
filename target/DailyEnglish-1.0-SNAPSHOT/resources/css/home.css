@@ -1,0 +1,82 @@
+button:focus { outline: none; }
+
+body{
+    font-family: "Copperplate Gothic Bold";
+}
+
+.header{
+    display: flex;
+    position: relative;
+    height: 70px;
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 1px solid #4f5050;
+}
+
+.header_content{
+    left: 100px;
+    display: flex;
+    position: absolute;
+    width: 900px;
+}
+
+.sub_header{
+    width: 300px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #FFFFFF;
+    line-height: 70px;
+    border-bottom: 1px solid #4f5050;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+.sub_header.user{
+    position: absolute;
+    right: 100px;
+    display: flex;
+}
+
+.user_icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/tải xuống.png");
+    background-size: contain;
+    position: absolute;
+    top: 15px;
+    right: 90px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 140px;
+    top: 60px;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.sub_header.user:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content input{
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: #f9f9f9;
+}

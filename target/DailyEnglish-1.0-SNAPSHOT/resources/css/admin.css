@@ -1,0 +1,126 @@
+button:focus { outline: none; }
+
+body{
+    font-family: "Copperplate Gothic Bold";
+}
+
+.header{
+    display: flex;
+    position: relative;
+    height: 70px;
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 1px solid #4f5050;
+}
+
+.header_content{
+    left: 100px;
+    display: flex;
+    position: absolute;
+    width: 1400px;
+}
+
+.sub_header{
+    width: 700px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: #FFFFFF;
+    line-height: 70px;
+    border-bottom: 1px solid #4f5050;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.btn.delete{
+    font-weight: bold;
+    background-color: #a52834;
+    height: 35px;
+    width: 80px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.btn.edit{
+    font-weight: bold;
+    background-color: #146c43;
+    height: 35px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.btn.add{
+    margin: 17px 0 17px 0;
+    font-weight: bold;
+    background-color: #0a53be;
+    height: 50px;
+    width: 150px;
+}
+
+.btn.voca{
+    font-weight: bold;
+    background-color: #146c43;
+    height: 35px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.btn.add1{
+    font-weight: bold;
+    background-color: #0a53be;
+    height: 35px;
+    width: 150px;
+}
+
+.btn.view_context{
+    font-weight: bold;
+    background-color: #0a53be;
+    height: 35px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.td_edit{
+    /*display: flex;*/
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+tbody{
+    height: 300px !important;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.voca_admin{
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    left: 90px;
+    top: 62px;
+    background-color: #aaaaaa;
+}
+
+.sub_voca_admin{
+    text-align: center;
+    width: 100%;
+}
+
+.togo{
+    display: block;
+}
+
+.togo1{
+    display: none;
+}
+
+.voca_admin1{
+    display: flex;
+    height: 30px;
+    width: 300px;
+    cursor: pointer;
+    border-bottom: #1a1e21 solid 1px;
+}
